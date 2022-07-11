@@ -53,6 +53,11 @@ def run():
                 # ball.move_speed -= 0.01
                 sq.reset()
 
+                if ball.heading() == 45:
+                    ball.setheading(315)
+                else:
+                    ball.setheading(225)
+
     screen.exitonclick()
 
 
