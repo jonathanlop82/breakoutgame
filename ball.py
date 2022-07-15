@@ -1,3 +1,4 @@
+#ball.py
 from turtle import Turtle
 import time
 
@@ -20,14 +21,6 @@ class Ball(Turtle):
                 self.setheading(315)
             else:
                 self.setheading(225)
-
-
-
-        # if self.ycor() <= -280:
-        #     if self.heading() == 225:
-        #         self.setheading(135)
-        #     else:
-        #         self.setheading(45)
 
 
         if self.xcor() >= 380:
